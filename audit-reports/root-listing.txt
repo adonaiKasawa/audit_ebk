@@ -1,0 +1,9 @@
+total 32
+drwxr-xr-x  7 root root 4096 Oct 15 18:40 .
+drwxr-xr-x  3 root root 4096 Oct 15 18:38 ..
+drwxr-xr-x  8 root root 4096 Oct 15 18:38 .git
+drwxr-xr-x  2 root root 4096 Oct 15 18:40 audit-reports
+drwxr-xr-x  2 root root 4096 Oct 15 18:38 ebk_back
+drwxr-xr-x  5 root root 4096 Oct 15 18:38 ebk_front
+drwxr-xr-x 10 root root 4096 Oct 15 18:38 ebk_mobile
+-rwxr-xr-x  1 root root 3820 Oct 15 18:39 run_full_audit.sh
