@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background-prayer-wall {
+  background: url("/background-prayer-wall.jpg");
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-attachment: fixed; */
+  /* background-size: cover;  */
+  /* filter: blur(27px);  */
+  z-index: -1;
+}
+
+.card-full {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .img-responsive {
+    width: 120px;
+    height: 120px;
+  }
+
+  .responsive-card {
+    width: 500px;
+  }
+}

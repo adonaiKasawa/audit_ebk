@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.linked-solution.EcclesiaBook.refresh</string>
+		<string>com.linked-solution.EcclesiaBook.processing</string>
+		<string>com.linked-solution.EcclesiaBook.remote-notification</string>
+	</array>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>fr</string>
+	<key>CFBundleDisplayName</key>
+	<string>EcclesiaBooK</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Nous avons besoin d&apos;accéder à votre bibliothèque Apple Music pour fournir des recommandations personnalisées et améliorer votre expérience.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Pour capturer et partager des moments, $(PRODUCT_NAME) a besoin d&apos;accéder à votre appareil photo. Par exemple, vous pouvez prendre des photos dans l&apos;application pour personnaliser votre profil.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string></string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Pour une expérience audio fluide lors de l&apos;enregistrement vidéo ou des sessions en direct, $(PRODUCT_NAME)  demande l&apos;accès à votre microphone. Parlez et interagissez avec les autres sans effort tout en utilisant nos fonctionnalités.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string> Pour améliorer votre expérience, $(PRODUCT_NAME) a besoin d&apos;accéder à votre bibliothèque de photos. Cela vous permet de télécharger des photos existantes et de créer du contenu visuellement attrayant pour votre profil ou vos publications.</string>
+	<key>NSPrivacyAccessedAPITypes</key>
+	<dict>
+		<key>NSPrivacyAccessedAPICategoryDiskSpace</key>
+		<string>Pour améliorer votre expérience, nous surveillons simplement l&apos;espace disque disponible sur votre appareil. Cela garantit un fonctionnement optimal de notre application en évitant les problèmes liés à un espace disque insuffisant. Votre confort est notre priorité.</string>
+		<key>NSPrivacyAccessedAPICategoryFileTimestamp</key>
+		<string>$(PRODUCT_NAME) utilise les horodatages des fichiers pour synchroniser les données. Nous n&apos;accédons à ces informations qu&apos;avec votre permission.</string>
+		<key>NSPrivacyAccessedAPICategorySystemBootTime</key>
+		<string>$(PRODUCT_NAME) utilise l&apos;heure de démarrage du système pour personnaliser l&apos;expérience utilisateur en affichant des notifications pertinentes au moment du démarrage. Nous n&apos;accédons à cette information qu&apos;avec votre permission.</string>
+		<key>NSPrivacyAccessedAPICategoryUserDefaults</key>
+		<string>Pour personnaliser votre expérience, nous utilisons les réglages enregistrés localement sur votre appareil. Cela nous permet de mémoriser vos préférences et de vous offrir un service plus adapté à vos besoins. Votre confort est notre priorité.</string>
+	</dict>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>$(PRODUCT_NAME) souhaite améliorer votre expérience en vous proposant des contenus personnalisées. Le suivi nous aide à comprendre vos préférences et à vous présenter des contenus pertinents pour vous.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>AntDesign.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>FontAwesome6_Brands.ttf</string>
+		<string>FontAwesome6_Regular.ttf</string>
+		<string>FontAwesome6_Solid.ttf</string>
+		<string>Foundation.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>SimpleLineIcons.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>Zocial.ttf</string>
+		<string>Fontisto.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>fetch</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

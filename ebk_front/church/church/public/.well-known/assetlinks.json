@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ecclesiabook",
+      "sha256_cert_fingerprints": [
+        "EC:AD:54:D0:44:43:E2:E6:DE:8D:99:9F:D6:6E:01:35:9F:56:5B:BC:79:41:B4:D7:61:EF:55:80:DD:90:9D:49"
+      ]
+    }
+  }
+]

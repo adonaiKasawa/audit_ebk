@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1091370455595",
+    "project_id": "ecclesiabook-87200",
+    "storage_bucket": "ecclesiabook-87200.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091370455595:android:acec9cdbd0ecdf5f25d06e",
+        "android_client_info": {
+          "package_name": "com.ecclesiabook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091370455595-q5lcpsacjdcvprugcgdlqjmaja0rdkhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-06Omg6ZUbdLnkJTrhYEcV-f1z484_bA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091370455595-q5lcpsacjdcvprugcgdlqjmaja0rdkhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091370455595:android:4ebac7c85a65d0bd25d06e",
+        "android_client_info": {
+          "package_name": "com.linked.ecclesiabook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091370455595-q5lcpsacjdcvprugcgdlqjmaja0rdkhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-06Omg6ZUbdLnkJTrhYEcV-f1z484_bA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091370455595-q5lcpsacjdcvprugcgdlqjmaja0rdkhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
