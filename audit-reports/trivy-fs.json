@@ -1,15 +1,15 @@
 {
   "SchemaVersion": 2,
-  "CreatedAt": "2025-10-15T18:40:40.362055442Z",
+  "CreatedAt": "2025-10-16T17:21:50.219304996Z",
   "ArtifactName": ".",
   "ArtifactType": "filesystem",
   "Metadata": {
     "RepoURL": "https://github.com/adonaiKasawa/audit_ebk.git",
     "Branch": "main",
-    "Commit": "68230f9f9a90038a456f0932e98359cef1f16ad2",
-    "CommitMsg": "first commit",
-    "Author": "Mbulaa \u003cMbulaa@accessbankplc.com\u003e",
-    "Committer": "adonaiKasawa \u003cadonaikasawa59@gmail.com\u003e"
+    "Commit": "c421825167c5ab71e567b6c0ae068ade7ac5a4be",
+    "CommitMsg": "audit v0.01",
+    "Author": "techniqueLinkedSolution \u003ctechnique@linked-solution.com\u003e",
+    "Committer": "techniqueLinkedSolution \u003ctechnique@linked-solution.com\u003e"
   },
   "Results": [
     {
@@ -38160,6 +38160,108 @@
           ],
           "PublishedDate": "2024-12-09T02:15:19.607Z",
           "LastModifiedDate": "2024-12-12T19:15:13.67Z"
+        }
+      ]
+    },
+    {
+      "Target": "audit-reports/semgrep.json",
+      "Class": "secret",
+      "Secrets": [
+        {
+          "RuleID": "github-pat",
+          "Category": "GitHub",
+          "Severity": "CRITICAL",
+          "Title": "GitHub Personal Access Token",
+          "StartLine": 1,
+          "EndLine": 1,
+          "Code": {
+            "Lines": [
+              {
+                "Number": 1,
+                "Content": " \"MYAPP_UPLOAD_STORE_PASSWORD=****************************************\", \"message\": \"GitHu",
+                "IsCause": true,
+                "Annotation": "",
+                "Truncated": false,
+                "Highlighted": " \"MYAPP_UPLOAD_STORE_PASSWORD=****************************************\", \"message\": \"GitHu",
+                "FirstCause": true,
+                "LastCause": true
+              }
+            ]
+          },
+          "Match": " \"MYAPP_UPLOAD_STORE_PASSWORD=****************************************\", \"message\": \"GitHu",
+          "Offset": 169403
+        },
+        {
+          "RuleID": "github-pat",
+          "Category": "GitHub",
+          "Severity": "CRITICAL",
+          "Title": "GitHub Personal Access Token",
+          "StartLine": 1,
+          "EndLine": 1,
+          "Code": {
+            "Lines": [
+              {
+                "Number": 1,
+                "Content": "\": \"MYAPP_UPLOAD_KEY_PASSWORD=****************************************\", \"message\": \"GitHu",
+                "IsCause": true,
+                "Annotation": "",
+                "Truncated": false,
+                "Highlighted": "\": \"MYAPP_UPLOAD_KEY_PASSWORD=****************************************\", \"message\": \"GitHu",
+                "FirstCause": true,
+                "LastCause": true
+              }
+            ]
+          },
+          "Match": "\": \"MYAPP_UPLOAD_KEY_PASSWORD=****************************************\", \"message\": \"GitHu",
+          "Offset": 171412
+        },
+        {
+          "RuleID": "github-pat",
+          "Category": "GitHub",
+          "Severity": "CRITICAL",
+          "Title": "GitHub Personal Access Token",
+          "StartLine": 1,
+          "EndLine": 1,
+          "Code": {
+            "Lines": [
+              {
+                "Number": 1,
+                "Content": "ECRET\": {\"abstract_content\": \"****************************************\", \"end\": {\"col\": 67",
+                "IsCause": true,
+                "Annotation": "",
+                "Truncated": false,
+                "Highlighted": "ECRET\": {\"abstract_content\": \"****************************************\", \"end\": {\"col\": 67",
+                "FirstCause": true,
+                "LastCause": true
+              }
+            ]
+          },
+          "Match": "ECRET\": {\"abstract_content\": \"****************************************\", \"end\": {\"col\": 67",
+          "Offset": 172593
+        },
+        {
+          "RuleID": "github-pat",
+          "Category": "GitHub",
+          "Severity": "CRITICAL",
+          "Title": "GitHub Personal Access Token",
+          "StartLine": 1,
+          "EndLine": 1,
+          "Code": {
+            "Lines": [
+              {
+                "Number": 1,
+                "Content": "ECRET\": {\"abstract_content\": \"****************************************\", \"end\": {\"col\": 69",
+                "IsCause": true,
+                "Annotation": "",
+                "Truncated": false,
+                "Highlighted": "ECRET\": {\"abstract_content\": \"****************************************\", \"end\": {\"col\": 69",
+                "FirstCause": true,
+                "LastCause": true
+              }
+            ]
+          },
+          "Match": "ECRET\": {\"abstract_content\": \"****************************************\", \"end\": {\"col\": 69",
+          "Offset": 170584
         }
       ]
     },
